@@ -45,7 +45,7 @@ const CreateTaskPopup = ({modal, toggle, save}) => {
             </ModalBody>
             <ModalFooter>
             <Button color="primary"  onClick ={handleSave}>Create</Button>{' '}
-            <Button color="secondary" >Cancel</Button>
+             <Button color="secondary" onClick={toggle}>Cancel</Button>{''}
             </ModalFooter>
       </Modal>
     );
